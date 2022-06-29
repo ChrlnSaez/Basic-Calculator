@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    padding-left: 50px;
+    text-align: center;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    width: 160px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.ans {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    gap: 10px;
+}
+
+#operation {
+    width: 25px;
+    border-radius: 5px;
+}
